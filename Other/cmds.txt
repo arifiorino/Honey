@@ -1,0 +1,29 @@
+Left:
+G0 X-11.0 F6000
+
+Right:
+G0 X11.0 F6000
+
+Forward:
+G0 Y11.0 F6000
+
+Backward:
+G0 Y-11.0 F6000
+
+Up:
+G0 Z1.1 F6000
+
+Down:
+G0 Z-1.1 F6000
+
+F600 for slow, F3000 for medium
+
+Dispense:
+G1 E0.01 F3.0
+
+Retract:
+G1 E-0.01 F3.0
+
+0.09 for switching
+
+
